@@ -1,0 +1,24 @@
+{
+  "name": "@nurmarief/prettier-config",
+  "version": "1.0.0",
+  "description": "My prettier config",
+  "main": "index.json",
+  "scripts": {
+    "prettier-write": "prettier . --write",
+    "prettier-watch": "onchange \"**/*\" -- prettier --write --ignore-unknown {{changed}}"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nurmarief/prettier-config.git"
+  },
+  "author": "Nur Muhammad Arief Kurniawan <ariefmuhammad897@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nurmarief/prettier-config/issues"
+  },
+  "homepage": "https://github.com/nurmarief/prettier-config#readme",
+  "devDependencies": {
+    "onchange": "7.1.0",
+    "prettier": "3.0.3"
+  }
+}
